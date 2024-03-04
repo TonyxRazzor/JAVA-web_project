@@ -1,0 +1,22 @@
+.product:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+}
+
+.product-link {
+    color: #000 !important;
+    text-decoration: none
+}
+
+.carousel-item {
+    height: 600px; /* Устанавливает высоту элемента карусели */
+    display: flex;
+    align-items: center; /* Выравнивает содержимое по центру по вертикали */
+    justify-content: center; /* Выравнивает содержимое по центру по горизонтали */
+}
+
+.carousel-image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
